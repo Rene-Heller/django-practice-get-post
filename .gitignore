@@ -1,0 +1,83 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Django stuff:
+*.log
+*.pot
+*.pyc
+*.pyo
+*.sqlite3
+*.pkl
+
+# If your build process includes running collectstatic, or if you're 
+# storing any static files in a directory separate from the default 
+# static root (e.g., STATIC_ROOT):
+staticfiles/
+static/
+
+# Media files
+media/
+
+# Translations
+*.mo
+*.po
+
+# Django migrations
+**/migrations/*.py
+!**/migrations/__init__.py
+
+# Environment variables
+.env
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Virtualenv
+venv/
+ENV/
+env/
+.venv/
+
+# Pyre type checker
+.pyre/
+
+# Celery beat schedule file
+celerybeat-schedule
+
+# Environments and packages
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# pytest
+.cache
+
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# PyCharm
+.idea/
+
+# VSCode
+.vscode/
+
+# local.py settings (typically used for local development)
+local_settings.py
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
